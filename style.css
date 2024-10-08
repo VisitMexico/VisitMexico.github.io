@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-body,
-html {
-    height: 100%;
-}
 h1 {
     font-family: "Anton", sans-serif;
     font-size: 144px;
@@ -15,7 +11,6 @@ h1 {
     background-image: url("Central-Mexico-City.webp");
 
     /* Full height */
-    /*    height: 100%; */
     width: 100%;
 
     /* Create the parallax scrolling effect */
