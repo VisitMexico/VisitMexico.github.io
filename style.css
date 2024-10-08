@@ -11,6 +11,7 @@ h1 {
     background-image: url("Central-Mexico-City.webp");
 
     /* Full height */
+    height: 80%;
     width: 100%;
 
     /* Create the parallax scrolling effect */
