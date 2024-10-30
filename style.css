@@ -1,22 +1,70 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
 h1 {
-    font-family: "Anton", sans-serif;
+    font-family: Inter, system-ui, sans-serif;
     font-size: 144px;
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    margin: 0px;
+    color: #181825;
 }
-.parallax {
-    /* The image used */
-    background-image: url("Central-Mexico-City.webp");
 
-    /* Full height */
-    height: 80%;
-    width: 100%;
+body,
+html {
+    /* Parallax scroll effect */
+    height: 100%;
+    background-color: #181825;
+}
 
-    /* Create the parallax scrolling effect */
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url("1.jpg");
+    min-height: 10%;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #313244;
+    border-radius: 10px;
+    position: sticky;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    color: #cdd6f4;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Inter, system-ui, sans-serif;
+    margin: 5px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #cba6f7;
+    color: #313244;
+    border-radius: 10px;
 }
