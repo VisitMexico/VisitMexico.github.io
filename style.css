@@ -9,12 +9,29 @@ h1 {
     margin: 0px;
     color: #181825;
 }
+h2 {
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+    color: #cdd6f4;
+}
+
+p {
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+    color: #cdd6f4;
+}
 
 body,
 html {
     /* Parallax scroll effect */
     height: 100%;
-    background-color: #181825;
+    background-color: #1e1e2e;
 }
 
 .bgimg-1,
@@ -67,4 +84,41 @@ li a:hover {
     background-color: #cba6f7;
     color: #313244;
     border-radius: 10px;
+}
+
+/* Style groups to have a cursor pointer */
+.clickable-group {
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+}
+
+.mapbox {
+    background-color: #45475a;
+    border-radius: 10px;
+    margin: 15px;
+    display: flex;
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.map {
+    width: auto;
+    height: auto;
+    margin: 15px;
+}
+.info {
+    width: 40%;
+    height: 50%;
+    background-color: #45475a;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
