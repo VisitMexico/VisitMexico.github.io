@@ -131,3 +131,8 @@ li a:hover {
     vertical-align: middle;
     text-align: left;
 }
+
+.top {
+    text-align: center;
+    margin: 40px;
+}
