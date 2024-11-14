@@ -136,3 +136,13 @@ li a:hover {
     text-align: center;
     margin: 40px;
 }
+
+.blogtext {
+    margin: 15px;
+    background-color: #45475a;
+    border-radius: 10px;
+}
+
+.padding {
+    margin: 15px;
+}
